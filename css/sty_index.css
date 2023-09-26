@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    background: #181824;
+    font-family: Arial;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    max-width: 300px;
+    bottom: 0;
+    top: 0;
+    display: block;
+    min-height: 300px;
+    height: 100%;
+    color: #fff;
+    opacity: 0.8;
+    transition: all 300ms;
+    -moz-transition: all 300ms;
+    -webkit-transition: all 300ms;
+}
+
+nav .vertical-menu hr {
+    opacity: 0.1;
+    border-width: 0.5px;
+}
+
+nav ul {
+    width: 90%;
+    padding-inline-start: 0;
+    margin: 10px;
+    height: calc(100% - 20px);
+}
+
+nav .vertical-menu-logo {
+    padding: 20px;
+    font-size: 1.3em;
+    position: relative
+}
+
+nav .vertical-menu-logo .open-menu-btn {
+    width: 30px;
+    height: max-content;
+    position: absolute;
+    display: block;
+    right: 20px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+}
+
+nav .vertical-menu-logo .open-menu-btn hr {
+    margin: 5px 0
+}
+
+nav li {
+    list-style: none;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+nav li:hover {
+    color: rgba(75, 105, 176, 1);
+}
+
+nav li#user-info {
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+}
+
+nav li#user-info>span {
+    display: block;
+    float: right;
+    font-size: 0.9em;
+    position: relative;
+    opacity: 0.6;
+}
+
+nav li#user-info>span:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    display: block;
+    position: absolute;
+    background: green;
+    left: -20px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.content-wrapper {
+    width: calc(100% - 300px);
+    height: 100%;
+    position: fixed;
+    background: #fff;
+    left: 300px;
+    padding: 20px;
+}
+
+.closed-menu .content-wrapper {
+    width: 100%;
+    left: 50px;
+}
+
+.content-wrapper {
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms;
+    -o-transition: all 300ms;
+}
+
+.vertical-menu-wrapper .vertical-menu-logo div {
+    transition: all 100ms;
+}
+
+.closed-menu .vertical-menu-wrapper .vertical-menu-logo div {
+    margin-left: -100px;
+}
+
+.vertical-menu-wrapper .vertical-menu-logo .open-menu-btn {
+    transition: all 300ms;
+}
+
+.closed-menu .vertical-menu-wrapper .vertical-menu-logo .open-menu-btn {
+    left: 7px;
+    right: 100%;
+}
+
+.closed-menu .vertical-menu-wrapper ul,
+.closed-menu .vertical-menu-wrapper hr {
+    margin-left: -300px;
+}
+
+.vertical-menu-wrapper ul,
+.vertical-menu-wrapper hr {
+    transition: all 100ms;
+}
+
+.content-wrapper {
+    background: #cecece;
+    overflow-y: scroll;
+    /* Habilita el desplazamiento vertical */
+}
+
+.content {
+    width: 90%;
+    min-height: 90%;
+    background: rgb(240, 240, 240);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+img {
+    height: 100px;
+    width: 300px;
+}
+
+.content img {
+    display: block;
+    margin: 0 auto;
+    /* Centra horizontalmente */
+    max-width: 100%;
+    /* Ajusta el ancho máximo según el tamaño de la pantalla */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+}
+
+.vertical-menu {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* Estilo para imglogo */
+
+.imglogo {
+    height: 50px;
+    width: 140px;
+    display: block;
+    /* Alinea el logotipo a la izquierda */
+    /* Añade un margen izquierdo para espaciarlo del borde */
+}
+
+
+/* Oculta el logotipo cuando el menú está cerrado */
+
+.closed-menu .logo-container {
+    display: none;
+}
+
+button {
+    position: relative;
+    height: 60px;
+    width: 200px;
+    border: none;
+    outline: none;
+    color: white;
+    background: #111;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+button:before {
+    position: absolute;
+    content: '';
+    top: -2px;
+    left: -2px;
+    height: calc(100% + 4px);
+    width: calc(100% + 4px);
+    border-radius: 5px;
+    z-index: -1;
+    opacity: 0;
+    filter: blur(5px);
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background-size: 400%;
+    transition: opacity .3s ease-in-out;
+    animation: animate 20s linear infinite;
+}
+
+button:hover:before {
+    opacity: 1;
+}
+
+button:hover:active {
+    background: none;
+}
+
+button:hover:active:before {
+    filter: blur(2px);
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,400italic,700,900' rel='stylesheet' type='text/css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/sty_index.css">
+    <link rel="stylesheet" href="css/avance.css">
+    <title>Avances del proyecto</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+
+    <nav class="vertical-menu-wrapper">
+        <div class="vertical-menu-logo">
+            <br>
+            <div class="logo-container"><img class="imglogo" src="/IMG/hbss.png" alt=""></div> <br>
+            <span class="open-menu-btn"><hr><hr><hr></span>
+        </div>
+        <ul class="vertical-menu">
+            <li data-link="index.html"><i class="fas fa-home"></i> Dashboard</li>
+            <hr />
+            <li data-link="tu_equipo.html"><i class="fa-solid fa-people-group"></i> Tu equipo</li>
+            <hr />
+            <li data-link="recursos.html"><i class="fa-solid fa-layer-group"></i> Tus recursos</li>
+            <hr />
+            <li class="active"><i class="fa-solid fa-handshake-simple"></i> Avances proyecto</li>
+            <hr />
+            <li data-link="operaciones.html"><i class="fa-solid fa-gear"></i> Operaciones</li>
+            <hr />
+            <li data-link="kpis.html"><i class="fa-solid fa-sitemap"></i> Kpi´s</li>
+            <hr />
+            <br><br><br><br>
+            <hr />
+            <li><button id="logout" style="cursor: pointer;">Cerrar sesion</button></li>
+            <hr />
+
+            <li id="user-info">HBS<span>online</span></li>
+        </ul>
+        </ul>
+    </nav>
+
+
+    <div class="content-wrapper">
+        <div class="content">
+            <img src="IMG/LOGOHBSCON.png" alt="">
+
+            <p><b>AVANCES DEL PROYECTO</b></p>
+
+            <hr>
+
+            <div class="bodyview">
+
+                <div class="diviporcen">
+
+                    <figure class="chart" data-percent="15">
+                        <figcaption>15%</figcaption><br>
+                        <div class="textu"> Avances Proyecto </div>
+                        <svg width="200" height="200">
+                          <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
+                      </svg>
+                    </figure>
+
+                </div>
+
+
+                <section class="container">
+
+
+
+                    <!-- Chart -->
+                    <!-- historial venta -->
+                    <a href="http://localhost:4200/pages/historial_venta">
+                        <figure class="chart" data-percent="25">
+                            <figcaption>28%</figcaption><br>
+
+                            <div class="textu">Flota Dedicada</div>
+                            <svg width="200" height="200">
+                          <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
+                        </svg>
+                        </figure>
+                    </a>
+
+
+                    <!-- Chart -->
+                    <!-- modal1 -->
+                    <a href="http://localhost:4200/pages/modal1">
+                        <figure class="chart" data-percent="10">
+                            <figcaption>10%</figcaption><br>
+                            <div class="textu">TTHH</div>
+                            <svg width="200" height="200">
+                        <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
+                      </svg>
+                        </figure>
+                    </a>
+
+
+
+                    <!-- Chart -->
+                    <a href="http://localhost:4200/pages/documentos">
+                        <figure class="chart" data-percent="75">
+                            <figcaption>75%</figcaption><br>
+                            <div class="textu">G. Documental</div>
+                            <svg width="200" height="200">
+                        <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
+                      </svg>
+                        </figure>
+                    </a>
+
+                    <!-- Chart -->
+                    <a href="http://localhost:4200/pages/seguridad">
+                        <figure class="chart" data-percent="50">
+                            <figcaption>50%</figcaption><br>
+                            <div class="textu">Seguridad</div>
+                            <svg width="200" height="200">
+                        <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
+                      </svg>
+                        </figure>
+                    </a>
+
+
+                </section>
+                <h2><b>Time Line del Proyecto</b></h2>
+                <img class="timeline" src="assets/timeline.svg" alt="">
+
+
+            </div>
+
+            <!-- SCRIPT********************** -->
+
+            <script>
+                // Obtiene la URL actual
+                var currentUrl = window.location.pathname;
+
+                // Verifica si la URL termina con "index.html"
+                if (currentUrl.endsWith("tu_equipo.html")) {
+                    // Agrega la clase "active" a la etiqueta "Dashboard"
+                    document.querySelector(".vertical-menu li.active").classList.add("active");
+                }
+            </script>
+
+            <script>
+                // Obtén todas las etiquetas <li> en el menú vertical
+                const menuItems = document.querySelectorAll('.vertical-menu li');
+
+                // Agrega un controlador de clic a cada elemento
+                menuItems.forEach(item => {
+                    item.addEventListener('click', () => {
+                        // Obtiene la URL de la etiqueta clicada
+                        const link = item.getAttribute('data-link');
+
+                        // Redirige a la URL especificada
+                        if (link) {
+                            window.location.href = link;
+                        }
+                    });
+                });
+            </script>
+
+
+
+
+</body>
+<script src="js/indexnav.js"></script>
+<script src="js/index.js"></script>
+
+</html>
