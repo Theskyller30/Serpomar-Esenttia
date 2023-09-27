@@ -23,32 +23,6 @@ p {
 
 .card-1 {
     --color: rgb(101, 101, 101);
-    --image: url("assets/EXPOR.jpg");
-}
-
-.card-2 {
-    --color: rgb(101, 101, 101);
-    --image: url("assets/fondoimpor.jpg");
-}
-
-.card-3 {
-    --color: rgb(101, 101, 101);
-    --image: url("assets/CEDI.jpg");
-}
-
-.card-4 {
-    --color: rgb(101, 101, 101);
-    --image: url("assets/BODEGAA.jpg");
-}
-
-.card-5 {
-    --color: rgb(101, 101, 101);
-    --image: url("assets/dos.jpg");
-}
-
-.card-6 {
-    --color: rgb(101, 101, 101);
-    --image: url("assets/nacional.jpg");
 }
 
 a {

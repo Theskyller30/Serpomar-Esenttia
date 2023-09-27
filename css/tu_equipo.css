@@ -181,22 +181,6 @@ p {
 
 .card-1 {
     --color: rgb(101, 101, 101);
-    --image: url("assets/fondo1.jpg");
-}
-
-.card-2 {
-    --color: rgb(101, 101, 101);
-    --image: url("assets/fondo2.jpg");
-}
-
-.card-3 {
-    --color: rgb(101, 101, 101);
-    --image: url("assets/fondo3.jpg");
-}
-
-.card-4 {
-    --color: rgb(101, 101, 101);
-    --image: url("assets/segu.jpg");
 }
 
 .card {
