@@ -538,12 +538,11 @@
 
 .modalope__container {
     margin: auto;
-    width: 90%;
-    max-width: 680px;
-    max-height: 90%;
+    width: 980px;
+    height: 650px;
     background-color: #fff;
     border-radius: 6px;
-    padding: 3em 2.5em;
+    padding: 1em 2.5em;
     display: grid;
     gap: 1em;
     place-items: center;
@@ -610,12 +609,11 @@
 
 .modalope2__container {
     margin: auto;
-    width: 90%;
-    max-width: 680px;
-    max-height: 90%;
+    width: 980px;
+    height: 650px;
     background-color: #fff;
     border-radius: 6px;
-    padding: 3em 2.5em;
+    padding: 1em 2.5em;
     display: grid;
     gap: 1em;
     place-items: center;
@@ -682,12 +680,11 @@
 
 .modalope3__container {
     margin: auto;
-    width: 90%;
-    max-width: 680px;
-    max-height: 90%;
+    width: 980px;
+    height: 650px;
     background-color: #fff;
     border-radius: 6px;
-    padding: 3em 2.5em;
+    padding: 1em 2.5em;
     display: grid;
     gap: 1em;
     place-items: center;
@@ -754,12 +751,11 @@
 
 .modalope4__container {
     margin: auto;
-    width: 90%;
-    max-width: 680px;
-    max-height: 90%;
+    width: 980px;
+    height: 650px;
     background-color: #fff;
     border-radius: 6px;
-    padding: 3em 2.5em;
+    padding: 1em 2.5em;
     display: grid;
     gap: 1em;
     place-items: center;
@@ -826,12 +822,11 @@
 
 .modalope5__container {
     margin: auto;
-    width: 90%;
-    max-width: 680px;
-    max-height: 90%;
+    width: 980px;
+    height: 650px;
     background-color: #fff;
     border-radius: 6px;
-    padding: 3em 2.5em;
+    padding: 1em 2.5em;
     display: grid;
     gap: 1em;
     place-items: center;
@@ -898,12 +893,11 @@
 
 .modalope6__container {
     margin: auto;
-    width: 90%;
-    max-width: 680px;
-    max-height: 90%;
+    width: 980px;
+    height: 650px;
     background-color: #fff;
     border-radius: 6px;
-    padding: 3em 2.5em;
+    padding: 1em 2.5em;
     display: grid;
     gap: 1em;
     place-items: center;
