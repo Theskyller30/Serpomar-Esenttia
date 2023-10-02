@@ -13,6 +13,7 @@
     <title>Tus recursos</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
 
 
     <link rel="icon" type="image/png" href="favicon.png">
@@ -21,17 +22,21 @@
 <body>
 
     <nav class="vertical-menu-wrapper">
-        <div class="vertical-menu-logo">
-            <br>
-            <div class="logo-container"><img class="imglogo" src="IMG/hbss.png" alt=""></div> <br>
-            <span class="open-menu-btn"><hr><hr><hr></span>
+        <div class="vertical-menu-logo-container">
+            <div class="vertical-menu-logo">
+                <br>
+                <div class="logo-container"><img class="imglogo" src="IMG/logoserpomar.png" alt=""></div> <br>
+                <span class="open-menu-btn">
+                <hr><hr><hr>
+            </span>
+            </div>
         </div>
         <ul class="vertical-menu">
             <li data-link="index.html"><i class="fas fa-home"></i> Dashboard</li>
             <hr />
             <li data-link="tu_equipo.html"><i class="fa-solid fa-people-group"></i> Tu equipo</li>
             <hr />
-            <li class="active"><i class="fa-solid fa-layer-group"></i> Presentación proyecto</li>
+            <li class="active"><i class="fa-solid fa-layer-group"></i> Tus recursos</li>
             <hr />
             <li data-link="avance.html"><i class="fa-solid fa-handshake-simple"></i> Avances proyecto</li>
             <hr />
@@ -40,40 +45,649 @@
             <li data-link="kpis.html"><i class="fa-solid fa-sitemap"></i> Kpi´s</li>
             <hr />
             <br><br><br><br>
-            <hr />
-            <li><button id="logout" style="cursor: pointer;">Cerrar sesion</button></li>
-            <hr />
-
-            <li id="user-info">HBS<span>online</span></li>
-        </ul>
+            <li><button id="logout" style="cursor: pointer;"><i class="fa-solid fa-right-from-bracket"></i>Cerrar sesion</button></li>
         </ul>
     </nav>
 
 
     <div class="content-wrapper">
         <div class="content">
-            <img src="IMG/LOGOHBSCON.png" alt="">
+            <div class="esenttialogo">
+                <img src="IMG/logoEsettia.png" alt="">
+            </div>
 
-            <p><b>PRESENTACION PROYECTO</b></p>
+            <p><b>TUS RECURSOS</b></p>
 
             <hr>
 
 
-            <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
-                    padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;border-radius: 8px; will-change: transform;">
-                <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFta4u5rvM&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-            </iframe>
-            </div>
+            <fieldset class="checkbox-groupinput">
 
-
-            <div class="containerdes">
-                <div class="boton-descarga">
-                    <i class="fas fa-download"></i>
-                    <span class="leyenda"><b>Oferta técnica</b></span>
-                    <a href="Descargas/OFERTA TECNICA.pdf" download="Oferta tecnica.pdf" class="descargar-link"></a>
+                <div class="checkboxinput">
+                    <a href="#" class="hero__ctare1">
+                        <input type="checkbox" class="checkbox-inputinput" checked />
+                        <span class="checkbox-tileinput">
+                            <span class="checkbox-iconinput">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-seam" viewBox="0 0 16 16">
+                                    <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/>
+                                </svg>
+                            </span>
+                        <span class="checkbox-labelinput">BODEGA</span>
+                        </span>
+                    </a>
                 </div>
-            </div>
 
+
+                <div class="checkboxinput">
+                    <a href="#" class="hero__ctare2">
+                        <input type="checkbox" class="checkbox-inputinput" checked />
+                        <span class="checkbox-tileinput">
+                    <span class="checkbox-iconinput">
+                
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-layers-half" viewBox="0 0 16 16">
+                                <path d="M8.235 1.559a.5.5 0 0 0-.47 0l-7.5 4a.5.5 0 0 0 0 .882L3.188 8 .264 9.559a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882L12.813 8l2.922-1.559a.5.5 0 0 0 0-.882l-7.5-4zM8 9.433 1.562 6 8 2.567 14.438 6 8 9.433z"/>
+                            </svg>
+                     
+                    </span>
+                        <span class="checkbox-labelinput">PATIO</span>
+                        </span>
+                    </a>
+                </div>
+
+
+                <div class="checkboxinput">
+                    <a href="#" class="hero__ctare3">
+
+                        <input type="checkbox" class="checkbox-inputinput" checked />
+                        <span class="checkbox-tileinput">
+                    <span class="checkbox-iconinput">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
+                            <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                          </svg>
+                    </span>
+                        <span class="checkbox-labelinput">VEHICULOS</span>
+                        </span>
+
+                    </a>
+                </div>
+            </fieldset>
+
+
+            <!-- modal  dentro 1-->
+            <section class="modalre1">
+                <div class="modalre1__container">
+                    <img class="modal-img" src="assets/Bodegas.jpg">
+                    <a href="#" class="modalre1__close">Cerrar Modal</a>
+                </div>
+            </section>
+            <!-- modal dentro 1 -->
+
+            <!-- modal  dentro 2-->
+            <section class="modalre2">
+                <div class="modalre2__container">
+                    <img class="modal-img" src="assets/PATIO.jpg">
+                    <a href="#" class="modalre2__close">Cerrar Modal</a>
+                </div>
+            </section>
+            <!-- modal dentro 2 -->
+
+            <!-- modal  dentro 3-->
+            <section class="modalre3">
+                <div class="modalre3__container">
+
+                    <fieldset class="checkbox-group">
+                        <legend class="checkbox-group-legend"><b>Tus Vehiculos</b></legend>
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" checked />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">GZK140 - 2023</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" checked/>
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">SSZ355 - 2012</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" checked/>
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">SIT260 - 2005</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" checked />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">SNN353 - 2007</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" checked/>
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">SNW409 - 2013</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" checked/>
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">KSK119 - 2022</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" checked/>
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">KSK120 - 2022</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" checked/>
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">STT053 - 2013</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" checked/>
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">SQM018 - 2004</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" checked/>
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">TVA235 - 2005</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" checked/>
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">SNT184 - 2012</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" checked/>
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">SZK480 - 2012</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">TGK560 - 2012</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">KSK111 - 2022</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">KSK117 - 2022</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">WON285 - 2023</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">SSA078 - 2012</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">SQM018 - 2004</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">SRM651 - 2007</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">KUK658 - 2007</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">SXV256 - 2012</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">SIT287 - 2005</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">TDW213 - 2011</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">UZN135 - 2006</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">XGC677 - 2005</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">TFK957 - 2008</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">UZN134 - 2006</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">xxxxx - xxxx</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">xxxxx - xxxx</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">xxxxx - xxxx</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">xxxxx - xxxx</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">xxxxx - xxxx</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">xxxxx - xxxx</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">xxxxx - xxxx</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">xxxxx - xxxx</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">xxxxx - xxxx</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">xxxxx - xxxx</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">xxxxx - xxxx</span>
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label class="checkbox-wrapper">
+                                <input type="checkbox" class="checkbox-input" />
+                                <span class="checkbox-tile">
+                                    <span class="checkbox-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
+                                            <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM3 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm10 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM2.906 5.189a.51.51 0 0 0 .497.731c.91-.073 3.35-.17 4.597-.17 1.247 0 3.688.097 4.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 11.691 3H4.309a.5.5 0 0 0-.447.276L2.906 5.19Z"/>
+                                          </svg>
+                                    </span>
+                                    <span class="checkbox-label">xxxxx - xxxx</span>
+                                </span>
+                            </label>
+                        </div>
+                    </fieldset>
+
+                    <a href="#" class="modalre3__close">Cerrar Modal</a>
+                </div>
+            </section>
+            <!-- modal dentro 3 -->
 
 
 

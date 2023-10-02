@@ -15,22 +15,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
     <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
 </head>
 
 <body>
 
     <nav class="vertical-menu-wrapper">
-        <div class="vertical-menu-logo">
-            <br>
-            <div class="logo-container"><img class="imglogo" src="IMG/hbss.png" alt=""></div> <br>
-            <span class="open-menu-btn"><hr><hr><hr></span>
+        <div class="vertical-menu-logo-container">
+            <div class="vertical-menu-logo">
+                <br>
+                <div class="logo-container"><img class="imglogo" src="IMG/logoserpomar.png" alt=""></div> <br>
+                <span class="open-menu-btn">
+                <hr><hr><hr>
+            </span>
+            </div>
         </div>
         <ul class="vertical-menu">
             <li data-link="index.html"><i class="fas fa-home"></i> Dashboard</li>
             <hr />
             <li data-link="tu_equipo.html"><i class="fa-solid fa-people-group"></i> Tu equipo</li>
             <hr />
-            <li data-link="recursos.html"><i class="fa-solid fa-layer-group"></i> Presentación proyecto</li>
+            <li data-link="recursos.html"><i class="fa-solid fa-layer-group"></i> Tus recursos</li>
             <hr />
             <li data-link="avance.html"><i class="fa-solid fa-handshake-simple"></i> Avances proyecto</li>
             <hr />
@@ -39,19 +44,16 @@
             <li data-link="kpis.html"><i class="fa-solid fa-sitemap"></i> Kpi´s</li>
             <hr />
             <br><br><br><br>
-            <hr />
-            <li><button id="logout" style="cursor: pointer;">Cerrar sesion</button></li>
-            <hr />
-
-            <li id="user-info">HBS<span>online</span></li>
-        </ul>
+            <li><button id="logout" style="cursor: pointer;"><i class="fa-solid fa-right-from-bracket"></i>Cerrar sesion</button></li>
         </ul>
     </nav>
 
 
     <div class="content-wrapper">
         <div class="content">
-            <img src="IMG/LOGOHBSCON.png" alt="">
+            <div class="esenttialogo">
+                <img src="IMG/logoEsettia.png" alt="">
+            </div>
 
             <p><b>OPERACIONES</b></p>
 
@@ -70,7 +72,7 @@
                             <img src="assets/fondoimpor.jpg" alt="Imagen de Recurso Uno">
                         </div>
                         <br>
-                        <h2><b>Exportación</b></h2>
+                        <h2><b>Transporte Exportación</b></h2>
                     </div>
                 </a>
 
@@ -84,7 +86,7 @@
                             <img src="assets/CEDI.jpg" alt="Imagen de Recurso Uno">
                         </div>
                         <br>
-                        <h2><b>Importación</b></h2>
+                        <h2><b>Transporte Importación</b></h2>
                     </div>
                 </a>
 
@@ -99,7 +101,7 @@
                             <img src="assets/BODEGAA.jpg" alt="Imagen de Recurso Uno">
                         </div>
                         <br>
-                        <h2><b>CEDI</b></h2>
+                        <h2><b>Inventario <br> Bodega</b></h2>
                     </div>
                 </a>
 
@@ -115,156 +117,131 @@
                     </div>
                 </a>
 
-                <!--          5nd Card (Repeat above)  -->
-
-                <a href="#" class="hero__ctaope5">
-                    <div class="card card-1">
-                        <div class="card-image">
-                            <img src="assets/dos.jpg" alt="Imagen de Recurso Uno">
-                        </div>
-                        <br>
-                        <h2><b>Transporte<br>Nacional</b></h2>
-                    </div>
-                </a>
-
-                <!--          6nd Card (Repeat above)  -->
 
 
-                <a href="#" class="hero__ctaope6">
-                    <div class="card card-1">
-                        <div class="card-image">
-                            <img src="assets/nacional.jpg" alt="Imagen de Recurso Uno">
-                        </div>
-                        <br>
-                        <h2><b>Comercio<br>Exterior</b></h2>
-                    </div>
-                </a>
 
-            </div>
-
-
-            <!-- modal dentro 1-->
-            <section class="modalope">
-                <div class="modalope__container">
-                    <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+                <!-- modal dentro 1-->
+                <section class="modalope">
+                    <div class="modalope__container">
+                        <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
                 padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
                 border-radius: 8px; will-change: transform;">
-                        <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://lookerstudio.google.com/embed/reporting/770f04d5-f777-4b87-8d4e-9e559a3b11c2/page/unEMD" allowfullscreen="allowfullscreen"
-                            allow="fullscreen">
+                            <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://lookerstudio.google.com/embed/reporting/10444049-dfa1-44c2-9c86-c5dd832ecfc5/page/unEMD" allowfullscreen="allowfullscreen"
+                                allow="fullscreen">
                 </iframe>
+                        </div>
+                        <a href="#" class="modalope__close">Cerrar Modal</a>
                     </div>
-                    <a href="#" class="modalope__close">Cerrar Modal</a>
-                </div>
-            </section>
-            <!-- modal dentro 1 -->
+                </section>
+                <!-- modal dentro 1 -->
 
-            <!-- modal dentro 2-->
-            <section class="modalope2">
-                <div class="modalope2__container">
-                    <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+                <!-- modal dentro 2-->
+                <section class="modalope2">
+                    <div class="modalope2__container">
+                        <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
                 padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
                 border-radius: 8px; will-change: transform;">
-                        <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://lookerstudio.google.com/embed/reporting/f05a1891-e0f0-43a9-a4cf-2dd0b969d5dc/page/p_4a7aopze7c" allowfullscreen="allowfullscreen"
-                            allow="fullscreen">
+                            <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://lookerstudio.google.com/embed/reporting/bfb96c6e-15bd-44dd-82a0-19f989089ea6/page/p_4a7aopze7c" allowfullscreen="allowfullscreen"
+                                allow="fullscreen">
                 </iframe>
+                        </div>
+                        <a href="#" class="modalope2__close">Cerrar Modal</a>
                     </div>
-                    <a href="#" class="modalope2__close">Cerrar Modal</a>
-                </div>
-            </section>
-            <!-- modal dentro 2 -->
+                </section>
+                <!-- modal dentro 2 -->
 
-            <!-- modal dentro 3-->
-            <section class="modalope3">
-                <div class="modalope3__container">
-                    <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+                <!-- modal dentro 3-->
+                <section class="modalope3">
+                    <div class="modalope3__container">
+                        <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
                     padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
                     border-radius: 8px; will-change: transform;">
-                        <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://lookerstudio.google.com/embed/reporting/c4dff407-c7c8-4a41-abab-27ecb3249c84/page/6zXD" allowfullscreen="allowfullscreen"
-                            allow="fullscreen">
+                            <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://lookerstudio.google.com/embed/reporting/29efbeb8-84d4-404a-a34b-653e0f742f2b/page/6zXD" allowfullscreen="allowfullscreen"
+                                allow="fullscreen">
                     </iframe>
+                        </div>
+                        <a href="#" class="modalope3__close">Cerrar Modal</a>
                     </div>
-                    <a href="#" class="modalope3__close">Cerrar Modal</a>
-                </div>
-            </section>
-            <!-- modal dentro 3 -->
+                </section>
+                <!-- modal dentro 3 -->
 
-            <!-- modal dentro 4-->
-            <section class="modalope4">
-                <div class="modalope4__container">
-                    <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+                <!-- modal dentro 4-->
+                <section class="modalope4">
+                    <div class="modalope4__container">
+                        <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
                     padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
                     border-radius: 8px; will-change: transform;">
-                        <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://lookerstudio.google.com/embed/reporting/2c72aac1-292a-421d-9487-690260d79bac/page/WSh5C" allowfullscreen="allowfullscreen"
-                            allow="fullscreen">
+                            <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://lookerstudio.google.com/embed/reporting/7ad701d7-15c8-48f6-87bc-aaa0ec93262c/page/WSh5C" allowfullscreen="allowfullscreen"
+                                allow="fullscreen">
                     </iframe>
+                        </div>
+                        <a href="#" class="modalope4__close">Cerrar Modal</a>
                     </div>
-                    <a href="#" class="modalope4__close">Cerrar Modal</a>
-                </div>
-            </section>
-            <!-- modal dentro 4 -->
+                </section>
+                <!-- modal dentro 4 -->
 
-            <!-- modal dentro 5-->
-            <section class="modalope5">
-                <div class="modalope5__container">
-                    <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+                <!-- modal dentro 5-->
+                <section class="modalope5">
+                    <div class="modalope5__container">
+                        <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
                     padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
                     border-radius: 8px; will-change: transform;">
-                        <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://lookerstudio.google.com/embed/reporting/59318f96-57b0-47af-8194-fdfb3a91b45b/page/VgD" allowfullscreen="allowfullscreen"
-                            allow="fullscreen">
+                            <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://lookerstudio.google.com/embed/reporting/59318f96-57b0-47af-8194-fdfb3a91b45b/page/VgD" allowfullscreen="allowfullscreen"
+                                allow="fullscreen">
                     </iframe>
+                        </div>
+                        <a href="#" class="modalope5__close">Cerrar Modal</a>
                     </div>
-                    <a href="#" class="modalope5__close">Cerrar Modal</a>
-                </div>
-            </section>
-            <!-- modal dentro 5 -->
+                </section>
+                <!-- modal dentro 5 -->
 
-            <!-- modal dentro 6-->
-            <section class="modalope6">
-                <div class="modalope6__container">
-                    <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+                <!-- modal dentro 6-->
+                <section class="modalope6">
+                    <div class="modalope6__container">
+                        <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
                     padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
                     border-radius: 8px; will-change: transform;">
-                        <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://lookerstudio.google.com/embed/reporting/59318f96-57b0-47af-8194-fdfb3a91b45b/page/VgD" allowfullscreen="allowfullscreen"
-                            allow="fullscreen">
+                            <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://lookerstudio.google.com/embed/reporting/59318f96-57b0-47af-8194-fdfb3a91b45b/page/VgD" allowfullscreen="allowfullscreen"
+                                allow="fullscreen">
                     </iframe>
+                        </div>
+                        <a href="#" class="modalope6__close">Cerrar Modal</a>
                     </div>
-                    <a href="#" class="modalope6__close">Cerrar Modal</a>
-                </div>
-            </section>
-            <!-- modal dentro 6 -->
+                </section>
+                <!-- modal dentro 6 -->
 
 
 
-            <!-- SCRIPT********************** -->
+                <!-- SCRIPT********************** -->
 
-            <script>
-                // Obtiene la URL actual
-                var currentUrl = window.location.pathname;
+                <script>
+                    // Obtiene la URL actual
+                    var currentUrl = window.location.pathname;
 
-                // Verifica si la URL termina con "index.html"
-                if (currentUrl.endsWith("tu_equipo.html")) {
-                    // Agrega la clase "active" a la etiqueta "Dashboard"
-                    document.querySelector(".vertical-menu li.active").classList.add("active");
-                }
-            </script>
+                    // Verifica si la URL termina con "index.html"
+                    if (currentUrl.endsWith("tu_equipo.html")) {
+                        // Agrega la clase "active" a la etiqueta "Dashboard"
+                        document.querySelector(".vertical-menu li.active").classList.add("active");
+                    }
+                </script>
 
-            <script>
-                // Obtén todas las etiquetas <li> en el menú vertical
-                const menuItems = document.querySelectorAll('.vertical-menu li');
+                <script>
+                    // Obtén todas las etiquetas <li> en el menú vertical
+                    const menuItems = document.querySelectorAll('.vertical-menu li');
 
-                // Agrega un controlador de clic a cada elemento
-                menuItems.forEach(item => {
-                    item.addEventListener('click', () => {
-                        // Obtiene la URL de la etiqueta clicada
-                        const link = item.getAttribute('data-link');
+                    // Agrega un controlador de clic a cada elemento
+                    menuItems.forEach(item => {
+                        item.addEventListener('click', () => {
+                            // Obtiene la URL de la etiqueta clicada
+                            const link = item.getAttribute('data-link');
 
-                        // Redirige a la URL especificada
-                        if (link) {
-                            window.location.href = link;
-                        }
+                            // Redirige a la URL especificada
+                            if (link) {
+                                window.location.href = link;
+                            }
+                        });
                     });
-                });
-            </script>
+                </script>
 
 
 

@@ -1,7 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body {
     margin: 0;
-    background: #181824;
-    font-family: Arial;
+    background: rgb(240, 240, 240);
+    font-family: "Poppins", sans-serif;
+}
+
+.vertical-menu-wrapper {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(208, 208, 208, 1) 65%, rgba(0, 115, 255, 1) 100%);
+}
+
+
+/* Estilo para los elementos <hr> dentro de .vertical-menu-logo */
+
+.vertical-menu-logo hr {
+    border-width: 2px;
+    /*Grosordeseado*/
+    border-color: #000000;
+    /*Colorrojo*/
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+}
+
+i {
+    color: #0073FF;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+li {
+    color: #000000;
+}
+
+
+/* Centra el contenido de vertical-menu-logo cuando la barra de navegación esté contraída */
+
+.closed-menu .vertical-menu-logo-container {
+    text-align: center;
+}
+
+
+/* Establece el margen derecho e izquierdo a "auto" para centrar el contenido */
+
+.closed-menu .vertical-menu-logo {
+    margin: 0 auto;
+}
+
+
+/* Restaura el margen de los botones de menú cuando la barra esté contraída */
+
+.closed-menu .vertical-menu-logo .open-menu-btn {
+    left: 7px;
+    right: 100%;
 }
 
 nav {
@@ -51,7 +103,7 @@ nav .vertical-menu-logo .open-menu-btn {
 }
 
 nav .vertical-menu-logo .open-menu-btn hr {
-    margin: 5px 0
+    margin: 5px
 }
 
 nav li {
@@ -98,11 +150,11 @@ nav li#user-info>span:after {
     position: fixed;
     background: #fff;
     left: 300px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .closed-menu .content-wrapper {
-    width: 100%;
+    width: 98%;
     left: 50px;
 }
 
@@ -148,16 +200,46 @@ nav li#user-info>span:after {
 }
 
 .content {
-    width: 90%;
+    width: 93%;
     min-height: 90%;
     background: rgb(240, 240, 240);
     border-radius: 10px;
     padding: 40px;
 }
 
+
+/* Estilo para esenttialogo */
+
+.esenttialogo {
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    height: 80px;
+    /* Establece la altura en 100px */
+    width: 150px;
+    /* Establece el ancho en 50px */
+    margin: 0 auto;
+    /* Centra horizontalmente */
+}
+
+
+/* Estilo para la imagen dentro de esenttialogo */
+
+.esenttialogo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 img {
-    height: 100px;
-    width: 300px;
+    height: 60px;
+    width: 250px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    /* Otros estilos de la imagen */
 }
 
 .content img {
@@ -171,15 +253,15 @@ img {
 }
 
 .vertical-menu {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 
 /* Estilo para imglogo */
 
 .imglogo {
-    height: 50px;
-    width: 140px;
+    height: 40px;
+    width: 180px;
     display: block;
     /* Alinea el logotipo a la izquierda */
     /* Añade un margen izquierdo para espaciarlo del borde */
@@ -194,16 +276,20 @@ img {
 
 button {
     position: relative;
-    height: 60px;
+    height: 45px;
     width: 200px;
     border: none;
     outline: none;
     color: white;
-    background: #111;
+    background: #232323;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 8px;
     font-size: 18px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Poppins", sans-serif;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
 
 button:before {
