@@ -13,7 +13,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("https://i.ibb.co/SyfhGCG/blue.jpg");
     background-size: cover;
     padding: 30px;
 }
@@ -101,7 +100,7 @@ body {
 .cover .text .text-2 {
     padding-block: 0px;
     font-size: 26px;
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
     text-align: center;
     line-height: 1.6rem;

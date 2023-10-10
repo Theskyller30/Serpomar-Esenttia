@@ -1,0 +1,49 @@
+.slider {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 1em;
+    width: 800px;
+    /* Ancho deseado del slider */
+    height: 500px;
+    /* Altura deseada del slider */
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.5);
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}
+
+.img-container {
+    display: flex;
+    transition: transform 300ms ease-in-out;
+    width: 2400px;
+    /* Ancho total del contenedor (3 imágenes de 1920px cada una) */
+    height: 500px;
+    /* Altura deseada del slider */
+}
+
+.previous,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.previous {
+    left: 10px;
+    /* Posición de la flecha izquierda */
+}
+
+.next {
+    right: 10px;
+    /* Posición de la flecha derecha */
+}
+
+.img-container img {
+    width: 800px;
+    /* Ancho deseado del slider */
+    height: 500px;
+    /* Altura deseada del slider */
+    object-fit: cover;
+    /* Para ajustar la imagen dentro del contenedor */
+}

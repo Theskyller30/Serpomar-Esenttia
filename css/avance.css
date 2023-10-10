@@ -20,7 +20,6 @@ p {
 
 /* Import the Google Font 'Lato' */
 
-@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 /* Container styles */
 
@@ -207,6 +206,44 @@ h2 {
 }
 
 
+/* Clases para los porcentajes */
+
+.chart[data-percent='30'] .outer {
+    stroke-dashoffset: 376;
+    /* 30% */
+    -webkit-animation: show30 2s;
+    animation: show30 2s;
+}
+
+.chart[data-percent='18'] .outer {
+    stroke-dashoffset: 469;
+    /* 18% */
+    -webkit-animation: show18 2s;
+    animation: show18 2s;
+}
+
+.chart[data-percent='14'] .outer {
+    stroke-dashoffset: 507;
+    /* 14% */
+    -webkit-animation: show14 2s;
+    animation: show14 2s;
+}
+
+.chart[data-percent='22'] .outer {
+    stroke-dashoffset: 419;
+    /* 22% */
+    -webkit-animation: show22 2s;
+    animation: show22 2s;
+}
+
+.chart[data-percent='26'] .outer {
+    stroke-dashoffset: 376;
+    /* 26% */
+    -webkit-animation: show26 2s;
+    animation: show26 2s;
+}
+
+
 /* END set initial animation values */
 
 
@@ -335,6 +372,109 @@ h2 {
     }
     to {
         stroke-dashoffset: 430;
+    }
+}
+
+
+/* Keyframes para los porcentajes */
+
+@-webkit-keyframes show30 {
+    from {
+        stroke-dashoffset: 537;
+    }
+    to {
+        stroke-dashoffset: 161;
+        /* 30% */
+    }
+}
+
+@keyframes show30 {
+    from {
+        stroke-dashoffset: 537;
+    }
+    to {
+        stroke-dashoffset: 161;
+        /* 30% */
+    }
+}
+
+@-webkit-keyframes show18 {
+    from {
+        stroke-dashoffset: 537;
+    }
+    to {
+        stroke-dashoffset: 320;
+        /* 18% */
+    }
+}
+
+@keyframes show18 {
+    from {
+        stroke-dashoffset: 537;
+    }
+    to {
+        stroke-dashoffset: 320;
+        /* 18% */
+    }
+}
+
+@-webkit-keyframes show14 {
+    from {
+        stroke-dashoffset: 537;
+    }
+    to {
+        stroke-dashoffset: 386;
+        /* 14% */
+    }
+}
+
+@keyframes show14 {
+    from {
+        stroke-dashoffset: 537;
+    }
+    to {
+        stroke-dashoffset: 386;
+        /* 14% */
+    }
+}
+
+@-webkit-keyframes show22 {
+    from {
+        stroke-dashoffset: 537;
+    }
+    to {
+        stroke-dashoffset: 290;
+        /* 22% */
+    }
+}
+
+@keyframes show22 {
+    from {
+        stroke-dashoffset: 537;
+    }
+    to {
+        stroke-dashoffset: 290;
+        /* 22% */
+    }
+}
+
+@-webkit-keyframes show26 {
+    from {
+        stroke-dashoffset: 537;
+    }
+    to {
+        stroke-dashoffset: 242;
+        /* 26% */
+    }
+}
+
+@keyframes show26 {
+    from {
+        stroke-dashoffset: 537;
+    }
+    to {
+        stroke-dashoffset: 242;
+        /* 26% */
     }
 }
 

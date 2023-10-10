@@ -56,7 +56,11 @@
 
     <div class="content-wrapper">
         <div class="content">
-            <!-- <button id="editarBtn">Editar</button> -->
+            <!-- Botón de Editar -->
+            <!-- <button id="editarBtn" onclick="activarEdicion()">Editar</button> -->
+
+            <!-- Botón de Guardar (inicialmente oculto) -->
+            <!-- <button id="guardarBtn" onclick="guardarCambios()" style="display: none;">Guardar</button> -->
             <div class="body">
                 <div class="esenttialogo">
                     <img src="IMG/logoEsettia.png" alt="">
@@ -201,25 +205,32 @@
         });
     </script>
 
-
-    <script>
-        // Función para activar la edición de textos
+    <!-- <script>
+        // Función para activar la edición del HTML raíz
         function activarEdicion() {
-            // Selecciona los elementos de texto que deseas editar
-            const elementosTexto = document.querySelectorAll('.content-left p, .content-right p');
+            // Muestra una confirmación antes de habilitar la edición
+            if (confirm("¿Editar esta página?")) {
+                // Habilita la edición del HTML raíz
+                document.documentElement.contentEditable = true;
 
-            // Itera sobre los elementos de texto y agrega el atributo contenteditable
-            elementosTexto.forEach(elemento => {
-                elemento.contentEditable = true;
-            });
-
-            // Desactiva el botón de "Editar" para evitar la edición múltiple
-            document.getElementById('editarBtn').disabled = true;
+                // Desactiva el botón de "Editar" y activa el botón de "Guardar"
+                document.getElementById('editarBtn').disabled = true;
+                document.getElementById('guardarBtn').style.display = 'inline-block';
+            }
         }
 
-        // Agrega un evento al botón de "Editar" para activar la edición
-        document.getElementById('editarBtn').addEventListener('click', activarEdicion);
-    </script>
+        // Función para guardar los cambios en el HTML raíz
+        function guardarCambios() {
+            // Desactiva la edición del HTML raíz
+            document.documentElement.contentEditable = false;
+
+            // Oculta el botón de "Guardar" y activa el botón de "Editar"
+            document.getElementById('guardarBtn').style.display = 'none';
+            document.getElementById('editarBtn').disabled = false;
+        }
+    </script> -->
+
+
 
 
 
@@ -229,6 +240,6 @@
 </body>
 <script src="js/indexnav.js"></script>
 <script src="js/index.js"></script>
-<script src="js/modalinde.js"></script>
+<!-- <script src="js/modalinde.js"></script> -->
 
 </html>

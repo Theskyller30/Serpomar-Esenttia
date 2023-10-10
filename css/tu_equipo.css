@@ -7,7 +7,6 @@
     /* Texto en negrita en resaltado */
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 .container {
     height: 500px;
     width: 100%;
@@ -203,6 +202,7 @@ p {
 
 a {
     text-decoration: none;
+    color: #0073FF;
 }
 
 .card-image {
