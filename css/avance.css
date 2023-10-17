@@ -245,6 +245,7 @@ h2 {
 
 
 /* Clases para los porcentajes */
+
 .chart[data-percent='74'] .outer {
     stroke-dashoffset: 140;
     /* 74% */
@@ -280,7 +281,9 @@ h2 {
     animation: show66 2s;
 }
 
+
 /* Keyframes para los porcentajes */
+
 @-webkit-keyframes show74 {
     from {
         stroke-dashoffset: 537;
@@ -380,10 +383,6 @@ h2 {
         /* 66% */
     }
 }
-
-
-
-
 
 
 /* END set initial animation values */
