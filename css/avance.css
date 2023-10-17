@@ -244,6 +244,148 @@ h2 {
 }
 
 
+/* Clases para los porcentajes */
+.chart[data-percent='74'] .outer {
+    stroke-dashoffset: 140;
+    /* 74% */
+    -webkit-animation: show74 2s;
+    animation: show74 2s;
+}
+
+.chart[data-percent='68'] .outer {
+    stroke-dashoffset: 184;
+    /* 68% */
+    -webkit-animation: show68 2s;
+    animation: show68 2s;
+}
+
+.chart[data-percent='80'] .outer {
+    stroke-dashoffset: 106;
+    /* 80% */
+    -webkit-animation: show80 2s;
+    animation: show80 2s;
+}
+
+.chart[data-percent='81'] .outer {
+    stroke-dashoffset: 100;
+    /* 81% */
+    -webkit-animation: show81 2s;
+    animation: show81 2s;
+}
+
+.chart[data-percent='66'] .outer {
+    stroke-dashoffset: 166;
+    /* 66% */
+    -webkit-animation: show66 2s;
+    animation: show66 2s;
+}
+
+/* Keyframes para los porcentajes */
+@-webkit-keyframes show74 {
+    from {
+        stroke-dashoffset: 537;
+    }
+    to {
+        stroke-dashoffset: 397;
+        /* 74% */
+    }
+}
+
+@keyframes show74 {
+    from {
+        stroke-dashoffset: 537;
+    }
+    to {
+        stroke-dashoffset: 397;
+        /* 74% */
+    }
+}
+
+@-webkit-keyframes show68 {
+    from {
+        stroke-dashoffset: 537;
+    }
+    to {
+        stroke-dashoffset: 353;
+        /* 68% */
+    }
+}
+
+@keyframes show68 {
+    from {
+        stroke-dashoffset: 537;
+    }
+    to {
+        stroke-dashoffset: 353;
+        /* 68% */
+    }
+}
+
+@-webkit-keyframes show80 {
+    from {
+        stroke-dashoffset: 537;
+    }
+    to {
+        stroke-dashoffset: 431;
+        /* 80% */
+    }
+}
+
+@keyframes show80 {
+    from {
+        stroke-dashoffset: 537;
+    }
+    to {
+        stroke-dashoffset: 431;
+        /* 80% */
+    }
+}
+
+@-webkit-keyframes show81 {
+    from {
+        stroke-dashoffset: 537;
+    }
+    to {
+        stroke-dashoffset: 437;
+        /* 81% */
+    }
+}
+
+@keyframes show81 {
+    from {
+        stroke-dashoffset: 537;
+    }
+    to {
+        stroke-dashoffset: 437;
+        /* 81% */
+    }
+}
+
+@-webkit-keyframes show66 {
+    from {
+        stroke-dashoffset: 537;
+    }
+    to {
+        stroke-dashoffset: 371;
+        /* 66% */
+    }
+}
+
+@keyframes show66 {
+    from {
+        stroke-dashoffset: 537;
+    }
+    to {
+        stroke-dashoffset: 371;
+        /* 66% */
+    }
+}
+
+
+
+
+
+
 /* END set initial animation values */
 
 
